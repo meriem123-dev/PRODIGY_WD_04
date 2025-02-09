@@ -478,7 +478,7 @@ nav .fa-solid
 }
 @media screen and (max-width : 600px) {
     #header{
-        background-image: url('../images/copieacceuil.png');
+        background-image: url('copieacceuil.png');
     }
 
     .header-text
