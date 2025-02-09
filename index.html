@@ -13,7 +13,7 @@
     <div id="header">
       <div class="container">
         <nav>
-          <img src="images/logo.png" class="logo">
+          <img src="logo.png" class="logo">
           <ul id="menu">
             
             <li><a href="#header">Home</a></li>
@@ -124,7 +124,7 @@
          <h1 class="subtitle">My work</h1>
          <div class="work-list">
           <div class="work">
-             <img src="images/BusAura.png" alt="">
+             <img src="BusAura.png" alt="">
              <div class="layer">
               <h3>Desktop Application</h3>
               <p>
@@ -135,7 +135,7 @@
             </div>
           </div>
           <div class="work">
-            <img src="images/figma.png" alt="">
+            <img src="figma.png" alt="">
             <div class="layer">
               <h3>Design</h3>
               <p>
@@ -145,7 +145,7 @@
             </div>
           </div>
           <div class="work">
-            <img src="images/shop.png" alt="">
+            <img src="shop.png" alt="">
             <div class="layer">
               <h3>MLI SHOP Website</h3>
               <p>
@@ -174,7 +174,7 @@
               <a href="https://www.reddit.com/user/meriem2004/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button"><i class="fa-brands fa-square-reddit"></i></a>
             </div>
 
-            <a href="images/MYCV.pdf.pdf" download class="btn btn2">Download CV</a>
+            <a href="MYCV.pdf.pdf" download class="btn btn2">Download CV</a>
             </div>
 
             <div class="contact-right">
@@ -257,15 +257,15 @@ form.addEventListener('submit', e => {
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => {
             msg.innerHTML = "Message envoyé avec succès ! ✅";
-            msg.style.display = "block"; // Afficher le message
+            msg.style.display = "block";
             setTimeout(() => {
-                msg.style.opacity = "1"; // Rendre visible progressivement
+                msg.style.opacity = "1"; 
             }, 100);
             
             setTimeout(() => {
-                msg.style.opacity = "0"; // Disparaît après 5s
+                msg.style.opacity = "0"; 
                 setTimeout(() => {
-                    msg.style.display = "none"; // Cache complètement après disparition
+                    msg.style.display = "none"; 
                 }, 500);
             }, 5000);
 
