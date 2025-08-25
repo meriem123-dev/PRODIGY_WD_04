@@ -1,24 +1,19 @@
 <!doctype html>
 <html lang="en-US">
   <head>
-    <meta name="google-site-verification" content="77HSzy9w7hLoajoqPowoe1rSxd5FBJTeP4enDDdf7eI" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Mon Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <script src="https://kit.fontawesome.com/57b5819461.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-      <video autoplay loop muted id="background-video">
-  <source src="gifback.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
     <div id="header">
       <div class="container">
         <nav>
-          <img src="logo.png" class="logo">
+          <img src="images/logo.png" class="logo">
           <ul id="menu">
             
             <li><a href="#header">Home</a></li>
@@ -40,14 +35,10 @@
     <div id="about">
       <div class="container">
         <div class="row">
-          <div class="about-col-1"><img src="me.png" alt=""></div>
+          <div class="about-col-1"><img src="images/me.png" alt=""></div>
           <div class="about-col-2">
             <h1 class="subtitle">About me</h1>
-            <p class="about-text">Motivated third-year Software Engineering student at the University of Bejaia with a strong foundation in programming, 
-              web development, and problem-solving. 
-              Experienced in developing practical projects and collaborating in teams to achieve goals. 
-              Demonstrated leadership and interpersonal skills through volunteering roles, 
-              with a commitment to continuous learning and professional growth. Eager to contribute technical and analytical skills in a dynamic professional environment.</p>
+            <p class="about-text">Currently a 4th-year Software Engineering student, I have completed several hands-on academic projects, including desktop applications, dynamic websites, and management systems with database integration. I also completed an internship in an IT department, which gave me valuable exposure to a professional environment and helped strengthen my skills. Alongside my studies, I have pursued hybrid training in areas such as design, web development, and digital tools. Through my involvement with AIESEC, I have developed strong communication, leadership, and teamwork skills. Curious, detail-oriented, and versatile, I am eager to contribute my skills to meaningful and innovative projects.
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="opentab('skills',event)">Skills</p>
               <p class="tab-links" onclick="opentab('experience',event)">Experience</p>
@@ -56,10 +47,11 @@
 
             <div class="tab-content activ-tab" id="skills">
               <ul>
-                <li><span>PROGRAMMING</span><br>C, HTML, CSS, PHP, SQL, BOOTSTRAP, JAVA</li>
+                <li><span>PROGRAMMING</span><br>C, HTML, CSS, PHP, SQL, BOOTSTRAP, JAVA, Flask</li>
                 <li><span>DATABASE MANAGEMENT</span><br>SQL</li>
                 <li><span>SOFTWARE DEVELOPMENT</span><br>ALGORITHMS, DATA STRUCTURES, DEBUGGING</li>
                 <li><span>TOOLS</span><br>VISUAL STUDIO CODE, WAMP, ORACLE, CANVA, FIGMA</li>
+                <li><span>LANGUAGES</span><br>Arabic (native), French (fluent), English (intermediate)</li>
                 
               </ul>
             </div>
@@ -68,20 +60,16 @@
               <ul>
                 <li><span>OGX Department, EP Manager</span> 2024 – 2025<br>Strategically matched participants with international opportunities, <br>
                   leveraging a deep understanding of their needs and preferences <br>obtained through comprehensive CV assessments and goal-setting discussions.</li>
-                <li><span>Desktop Application: Transport Agency Management</span> 12/2024 - 01/2025<br>-Created a desktop application for a transport agency using Java, JavaFX, MySQL, and SceneBuilder,<br>
-                   automating client and booking management processes.<br>
-                  -Designed an intuitive graphical user interface (GUI) to enhance user experience and streamline operations.<br>
-                   -Applied database management principles to ensure accurate and efficient data handling.</li>
-                <li><span>E-Commerce Website Development</span> 03/2024 - 04/2024<br>-Designed and developed a functional online shop using HTML, CSS, PHP, and SQL,<br>
-                   offering features like user authentication, product listings, and a shopping cart.<br>
-                   -Built a secure back-end database to manage product inventory and transactions. <br>
-                   -Improved web development skills .</li>
+                <li><span>IT Intern – IT Department (DSI)</span> Cevital – Béjaia, Algeria March – April 2025 (15 days)
+Observation and introductory internship within the IT Department. Explored various units (infrastructure, support, development, networks) and gained an understanding of how a large corporate IT service operates. Contributed to technical monitoring tasks and analysis of internal tools.
+                <li><span>Web Development Intern</span> Prodigy InfoTech – Remote February 2025
+Completed assigned web development tasks. Delivered project-based assignments and improved practical skills through real-world application.</li>
               </ul>
             </div>
 
             <div class="tab-content" id="education">
               <ul>
-                <li><span>Third-year Software Engineering</span>Université Abderrahmane Mira de Béjaia – Bejaia, Algeria<br>2022 – Current</li>
+                <li><span>Fourth-year Software Engineering</span> Université Abderrahmane Mira de Béjaia – Bejaia, Algeria<br>2022 – Current</li>
                 <li><span>Scientific Baccalaureate Lycée Stambouli</span><br>2022</li>
                 <li><span>Algorithm Training 1</span><br>ATS, 12/2023</li>  
                 <li><span>Algorithm Training 2</span><br>ATS, 05/2023</li>
@@ -129,7 +117,7 @@
          <h1 class="subtitle">My work</h1>
          <div class="work-list">
           <div class="work">
-             <img src="BusAura.png" alt="">
+             <img src="images/BusAura.png" alt="">
              <div class="layer">
               <h3>Desktop Application</h3>
               <p>
@@ -140,7 +128,7 @@
             </div>
           </div>
           <div class="work">
-            <img src="figma.png" alt="">
+            <img src="images/carte pencraft.png" alt="">
             <div class="layer">
               <h3>Design</h3>
               <p>
@@ -150,11 +138,11 @@
             </div>
           </div>
           <div class="work">
-            <img src="shop.png" alt="">
+            <img src="images/site pencraft.png" alt="">
             <div class="layer">
-              <h3>MLI SHOP Website</h3>
+              <h3>Pencraft website</h3>
               <p>
-                unctional online shop using HTML, CSS, PHP, and SQL, offering features like user authentication, product listings, and a shopping cart.
+                functional online shop using HTML, CSS, Flask, and SQL, offering features like user authentication, product listings, and a shopping cart.
               </p>
               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
@@ -179,7 +167,7 @@
               <a href="https://www.reddit.com/user/meriem2004/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button"><i class="fa-brands fa-square-reddit"></i></a>
             </div>
 
-            <a href="MYCV.pdf.pdf" download class="btn btn2">Download CV</a>
+            <a href="images/MY_CV.pdf" download class="btn btn2">Download CV</a>
             </div>
 
             <div class="contact-right">
@@ -198,6 +186,8 @@
         </div>
       </div>
      
+
+
 
      
 <!-- script portfolio -->
@@ -260,15 +250,15 @@ form.addEventListener('submit', e => {
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => {
             msg.innerHTML = "Message envoyé avec succès ! ✅";
-            msg.style.display = "block";
+            msg.style.display = "block"; // Afficher le message
             setTimeout(() => {
-                msg.style.opacity = "1"; 
+                msg.style.opacity = "1"; // Rendre visible progressivement
             }, 100);
             
             setTimeout(() => {
-                msg.style.opacity = "0"; 
+                msg.style.opacity = "0"; // Disparaît après 5s
                 setTimeout(() => {
-                    msg.style.display = "none"; 
+                    msg.style.display = "none"; // Cache complètement après disparition
                 }, 500);
             }, 5000);
 
